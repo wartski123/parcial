@@ -27,24 +27,25 @@ int a, b, c;
         if (a > b) {
             if (a > c) {
                 if (b > c) {
-                    JOptionPane.showMessageDialog(null, a + "" + b + "" + "" + c);
+                    JOptionPane.showMessageDialog(null, a + " " + b + " " + " y el numero menor es: " + c);
+                    
                 } else {
-                    JOptionPane.showMessageDialog(null, a + "" + c + "" + "" + b);
+                    JOptionPane.showMessageDialog(null, a + " " + c + " " + " y el numero menor es: " + b);
                 }
 
             } else {
-                JOptionPane.showMessageDialog(null, c + "" + a + "" + "" + b);
+                JOptionPane.showMessageDialog(null, c + " " + a + " " + " y el numero menor es: " + b);
             }
 
         } else {
             if (b > c) {
                 if (c > a) {
-                    JOptionPane.showMessageDialog(null, b + "" + c + "" + "" + a);
+                    JOptionPane.showMessageDialog(null, b + " " + c + " " + " y el numero menor es: " + a);
                 } else {
-                    JOptionPane.showMessageDialog(null, b + "" + a + "" + "" + c);
+                    JOptionPane.showMessageDialog(null, b + " " + a + " " + " y el numero menor es: " + c);
                 }
             } else {
-                JOptionPane.showMessageDialog(null, c + "" + b + "" + "" + a);
+                JOptionPane.showMessageDialog(null, c + " " + b + " " + " y el numero menor es: " + a);
             }
         }
 
